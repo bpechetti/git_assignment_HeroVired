@@ -12,7 +12,7 @@ class Calculator:
     def divide(self, a, b):
         if b == 0:
             raise ValueError("Cannot divide by zero.") 
-            return a / b
+        return a / b
 # TODO: Implement the following function to calculate the square root of a number.
 
     def square_root(self, x):
@@ -21,9 +21,8 @@ class Calculator:
 
 # You need to uncomment the above function and complete its implementation to add the square root feature.
 
-if "__name__" == "__main__": 
+if __name__ == "__main__": 
     calculator = Calculator()
-
 num1 = 16
 num2 = 4
 num3 = 25
