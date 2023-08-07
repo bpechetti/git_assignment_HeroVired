@@ -21,14 +21,14 @@ class Calculator:
 
 # You need to uncomment the above function and complete its implementation to add the square root feature.
 
-#if __name__ == "__main__": 
-#    calculator = Calculator()
+if __name__ == "__main__": 
+    calculator = Calculator()
+num1 = 16
+num2 = 4
+num3 = 25
 
-#num1 = 16
-#num2 = 4
-
-#print(f"{num1} + {num2} = {calculator.add(num1, num2)}") 
-#print(f"{num1} - {num2} = {calculator.subtract(num1, num2)}") 
-#print(f"{num1} * {num2} = {calculator.multiply(num1, num2)}") 
-#print(f"{num1} / {num2} = {calculator.divide(num1, num2)}")
-# print(f"The square root of {num3} = {calculator.square_root(num3)}")
+print(f"{num1} + {num2} = {calculator.add(num1, num2)}") 
+print(f"{num1} - {num2} = {calculator.subtract(num1, num2)}") 
+print(f"{num1} * {num2} = {calculator.multiply(num1, num2)}") 
+print(f"{num1} / {num2} = {calculator.divide(num1, num2)}")
+print(f"The square root of {num3} = {calculator.square_root(num3)}")
